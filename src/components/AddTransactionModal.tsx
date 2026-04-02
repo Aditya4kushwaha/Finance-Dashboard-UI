@@ -99,8 +99,11 @@ const AddTransactionModal: React.FC<Props> = ({ isOpen, onClose, transaction }) 
             initial={{ opacity: 0, scale: 0.95, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
-            className="w-full max-w-md rounded-2xl bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 shadow-xl p-6 space-y-5"
+            className="w-full max-w-lg rounded-3xl bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 shadow-2xl p-5 sm:p-8 space-y-6 relative overflow-hidden"
           >
+            {/* Background Accent */}
+            <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/5 rounded-full -mr-16 -mt-16 blur-2xl" />
+
             
             {/* Header */}
             <div className="flex items-center justify-between">
