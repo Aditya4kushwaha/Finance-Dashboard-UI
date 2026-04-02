@@ -55,9 +55,8 @@ A modern and responsive **Finance Dashboard** built to track income, expenses, a
 Handles:
 - Transactions data  
 - Filters & search  
-- Selected user role  
-
-> Implemented using: Context API / Redux / Zustand *(update as per your project)*
+- Selected user role
+- Context API
 
 ---
 
